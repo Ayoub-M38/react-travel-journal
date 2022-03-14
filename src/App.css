@@ -1,0 +1,74 @@
+.App {
+	width: 550px;
+	height: 760px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.navbar {
+	height: 55px;
+	background: #f55a5a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+}
+
+.navbar p {
+	color: #fff;
+	font-weight: 500;
+}
+
+.card {
+	display: flex;
+	font-size: 10px;
+	color: #2b283a;
+}
+
+.card p {
+	margin-left: 4px;
+	margin-right: 12px;
+}
+
+.card a {
+	color: #918e9b;
+}
+
+.card--image {
+	width: 125px;
+	height: 168px;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-top: 45px;
+	object-fit: cover;
+}
+
+.card--location {
+	display: flex;
+	align-items: center;
+}
+
+.card--infos {
+	margin: 64px 40px 38px 19px;
+}
+
+.card--description h1 {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 30px;
+	margin-top: 4px;
+	margin-bottom: 7px;
+}
+
+.card--description span {
+	font-weight: 700;
+	font-size: 10.24px;
+	line-height: 12px;
+}
+
+.card--description p {
+	font-weight: 400;
+	font-size: 10.24px;
+	line-height: 15px;
+	margin-top: 9px;
+}
